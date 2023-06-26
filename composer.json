@@ -8,18 +8,16 @@
             "TripleKay\\Crud\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "TripleKay\\Crud\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "TripleKay"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "TripleKay\\Crud\\src\\CrudServiceProvider"
-            ]
-        }
-    }
+    "require": {}
 }
