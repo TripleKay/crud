@@ -1,0 +1,23 @@
+{
+    "name": "triplekay/crud",
+    "description": "package development testing",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TripleKay\\Crud\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TripleKay\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TripleKay"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
