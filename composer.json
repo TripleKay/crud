@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TripleKay\\Crud\\src\\CrudServiceProvider"
+                "TripleKay\\Crud\\CrudServiceProvider"
             ]
         }
     }
