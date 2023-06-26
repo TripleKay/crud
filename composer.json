@@ -19,5 +19,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Khantnyar\\ScaffoldedLaravel\\ScaffoldedLaravelServiceProvider"
+            ],
+            "aliases": {
+                "ScaffoldedLaravel": "Khantnyar\\ScaffoldedLaravel\\ScaffoldedLaravelFacade"
+            }
+        }
+    }
 }
