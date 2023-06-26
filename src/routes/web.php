@@ -14,3 +14,6 @@ use TripleKay\Crud\Http\Controllers\CrudController;
 |
 */
     Route::get('/create', [CrudController::class,'store']);
+    Route::get('/', function () {
+        return view('create');
+    });
