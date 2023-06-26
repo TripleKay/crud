@@ -18,6 +18,6 @@
             "name": "TripleKay"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
+
 }
