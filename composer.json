@@ -23,10 +23,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Khantnyar\\ScaffoldedLaravel\\ScaffoldedLaravelServiceProvider"
+                "TripleKay\\Crud\\CrudServiceProvider"
             ],
             "aliases": {
-                "ScaffoldedLaravel": "Khantnyar\\ScaffoldedLaravel\\ScaffoldedLaravelFacade"
+                "TripleKayCrud": "TripleKay\\Crud\\CrudServiceProviderFacade"
             }
         }
     }
